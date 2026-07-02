@@ -600,14 +600,14 @@
   import { initializeFirestore, doc, getDoc, updateDoc, increment, serverTimestamp } from 'https://www.gstatic.com/firebasejs/12.14.0/firebase-firestore.js';
 
   const app = initializeApp({
-    apiKey: 'AIzaSyBc0jyrxlCdA1mkDNN0u-VheCkGtskuaBw',
-    authDomain: 'ciminds.firebaseapp.com',
-    projectId: 'ciminds',
-    storageBucket: 'ciminds.firebasestorage.app',
-    messagingSenderId: '630925853512',
-    appId: '1:630925853512:web:808ec2cdbeb8720c29297d'
+    apiKey: 'AIzaSyA2Ais3wCxueyRhoAmFotqRqavX4PYdhcI',
+    authDomain: 'ciminds-app.firebaseapp.com',
+    projectId: 'ciminds-app',
+    storageBucket: 'ciminds-app.firebasestorage.app',
+    messagingSenderId: '625698434928',
+    appId: '1:625698434928:web:e6a4f731435c0e977929b5'
   });
-  try { initializeAppCheck(app, { provider: new ReCaptchaV3Provider('6Lcu8jEtAAAAAFkM1CANjfPHRt20O38Tm7TlO2K_'), isTokenAutoRefreshEnabled: true }); } catch(e) {}
+  try { initializeAppCheck(app, { provider: new ReCaptchaV3Provider('6Lc9pkEtAAAAAAE5mLfxwurKMDOGsDhEqeUkaLw4y'), isTokenAutoRefreshEnabled: true }); } catch(e) {}
   const db = initializeFirestore(app, { experimentalAutoDetectLongPolling: true });
 
   const _rl = { a: [], max: 10, w: 60000 };

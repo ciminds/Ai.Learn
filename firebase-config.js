@@ -36,13 +36,13 @@ import {
 
 // ── Your Firebase project config ────────────────────────────────────────────
 const firebaseConfig = {
-  apiKey:            "AIzaSyBc0jyrxlCdA1mkDNN0u-VheCkGtskuaBw",
-  authDomain:        "ciminds.firebaseapp.com",
-  projectId:         "ciminds",
-  storageBucket:     "ciminds.firebasestorage.app",
-  messagingSenderId: "630925853512",
-  appId:             "1:630925853512:web:808ec2cdbeb8720c29297d",
-  measurementId:     "G-8BLH44L897"
+  apiKey:            "AIzaSyA2Ais3wCxueyRhoAmFotqRqavX4PYdhcI",
+  authDomain:        "ciminds-app.firebaseapp.com",
+  projectId:         "ciminds-app",
+  storageBucket:     "ciminds-app.firebasestorage.app",
+  messagingSenderId: "625698434928",
+  appId:             "1:625698434928:web:e6a4f731435c0e977929b5",
+  measurementId:     "G-GT7QKV8EP4"
 };
 
 // ── Initialise ───────────────────────────────────────────────────────────────
@@ -55,7 +55,7 @@ const app  = initializeApp(firebaseConfig);
 let appCheck = null;
 try {
   appCheck = initializeAppCheck(app, {
-    provider: new ReCaptchaV3Provider('6Lcu8jEtAAAAAFkM1CANjfPHRt20O38Tm7TlO2K_'),
+    provider: new ReCaptchaV3Provider('6Lc9pkEtAAAAAAE5mLfxwurKMDOGsDhEqeUkaLw4y'),
     isTokenAutoRefreshEnabled: true
   });
   console.log('[CI Minds] App Check initialised — bot/DDoS protection active.');

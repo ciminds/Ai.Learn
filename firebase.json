@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "ciminds",
+    "site": "ciminds-app",
     "public": ".",
     "ignore": [
       "firebase.json",
